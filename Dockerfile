@@ -2,4 +2,4 @@ FROM websphere-liberty:microProfile
 RUN installUtility install --acceptLicense logstashCollector-1.0
 COPY src/main/liberty/config/server.xml /config/server.xml
 RUN installUtility install --acceptLicense defaultServer
-COPY target/microservice-session-1.0.0-SNAPSHOT.war /config/apps/session.war
+COPY target/conferencesession-1.0.0-SNAPSHOT.war /config/apps/session.war
