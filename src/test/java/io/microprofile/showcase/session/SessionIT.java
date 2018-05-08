@@ -37,7 +37,7 @@ import static org.junit.Assert.assertTrue;
 @RequiresKubernetes
 public class SessionIT { 
 
-    @Named("microservice-session-service")
+    @Named("conferencesession-service")
     // PortForward is REQUIRED for clients outside Kubernetes and FORBIDDEN for those within :(
     // @PortForward
     @ArquillianResource
